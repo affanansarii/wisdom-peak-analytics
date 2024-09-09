@@ -26,7 +26,7 @@ function Portfolio() {
             <SimpleGrid columns={[1, 2, 3]} spacing={4}>
                 {projects.map((item, index) => (
                     <Box key={index} borderWidth={1} borderRadius="md" overflow="hidden" p={4}>
-                        <Image src={item.image} alt="Project" />
+                        <Image src={item.image} alt="Project" margin="auto" />
                         <Text mt={2} fontWeight="bold"> {/* Added fontWeight="bold" */}
                             {item.description}
                         </Text>
