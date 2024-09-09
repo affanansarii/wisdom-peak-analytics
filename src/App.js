@@ -14,6 +14,7 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/ContactForm';
 import LocationMap from './components/LocationMap';
 import 'animate.css';
+import References from './components/References';
 
 function App() {
 
@@ -58,6 +59,10 @@ function App() {
 
         <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <Hobbies />
+        </Box>
+
+        <Box width="98%">
+          <References />
         </Box>
 
         <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">

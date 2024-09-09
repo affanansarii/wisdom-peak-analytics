@@ -12,17 +12,29 @@ function Skills() {
     ];
 
     return (
-
         <Box mb={6} id="skills">
-            <Heading as="h2" size="lg" mb={4}>Skills</Heading>
+            <Heading as="h2" size="lg" mb={4}>
+                Skills
+            </Heading>
             <SimpleGrid columns={[2, 3]} spacing={4}>
                 {skills.map((item, index) => (
-                    <Tooltip key={index} label={`Proficiency: ${item.rating}`} fontSize="md">
+                    <Tooltip
+                        key={index}
+                        label={`Proficiency: ${item.rating}`}
+                        fontSize="md"
+                    >
                         <Text
                             borderWidth={1}
                             borderRadius="md"
                             p={2}
-                            _hover={{ bg: "gray.200", cursor: "pointer" }}
+                            textAlign="center"
+                            transition="all 0.3s ease-in-out" // smooth transition for hover effects
+                            _hover={{
+                                bg: "blue.100",        // change background color on hover
+                                fontWeight: "bold",    // make text bolder on hover
+                                color: "blue.700",     // change text color on hover
+                                cursor: "pointer"      // change cursor to pointer
+                            }}
                         >
                             {item.name}
                         </Text>
@@ -30,9 +42,7 @@ function Skills() {
                 ))}
             </SimpleGrid>
         </Box>
-
-    )
-
+    );
 }
 
 export default Skills;
