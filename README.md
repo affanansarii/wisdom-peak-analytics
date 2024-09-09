@@ -26,7 +26,7 @@ https://wisdom-peak-analytics-v8k9.vercel.app/
 
 ## Screenshots
 
-![Home page:](../wisdom-peak-analytics/public/Screenshot%202024-09-09%20143902.png)
+![Home page:]("../wisdom-peak-analytics/public/Screenshot%202024-09-09%20143902.png")
 ![Contact Me:](../wisdom-peak-analytics/public/Screenshot%202024-09-09%20144217.png)
 ![Handling Accordion:](../wisdom-peak-analytics/public/Screenshot%202024-09-09%20144237.png)
 
