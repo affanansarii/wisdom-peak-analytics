@@ -21,7 +21,7 @@ function App() {
 
     <Box bg="white.100" p={4} textAlign="center">
 
-      <Box m={4} width="98%">
+      <Box m={4} width="98%" mb={10}>
         <Navbar />
       </Box>
 
@@ -36,7 +36,7 @@ function App() {
           </Box>
         </Flex>
 
-        <Box className="animate__animated animate__fadeInRight" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box bg="gray.100" className="animate__animated animate__fadeInRight" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <Timeline />
         </Box>
 
