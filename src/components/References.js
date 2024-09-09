@@ -18,21 +18,21 @@ const references = [
         name: "Jane Smith",
         title: "CTO, XYZ Corporation",
         testimonial:
-            "John is an outstanding developer with excellent attention to detail. His ability to work under pressure and deliver high-quality code on time is unparalleled.",
+            "Affan is an outstanding developer with excellent attention to detail. His ability to work under pressure and deliver high-quality code on time is unparalleled.",
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYR0TAT4xCZgg-7cvDs2gH02sMGHAIbFDYQ&s", // Replace with actual image URL
     },
     {
         name: "Michael Johnson",
         title: "Lead Engineer, ABC Solutions",
         testimonial:
-            "John's leadership and technical skills were instrumental in delivering several key projects at ABC Solutions. He is a true asset to any team.",
+            "Affan's leadership and technical skills were instrumental in delivering several key projects at ABC Solutions. He is a true asset to any team.",
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0de08JM29gvft_vW_lPP0Vc8lVsnV3tZFw&s",
     },
     {
         name: "Emily Davis",
         title: "Project Manager, DEF Technologies",
         testimonial:
-            "John consistently exceeded expectations while working on multiple complex projects. His problem-solving skills and collaborative approach are top-notch.",
+            "Affan consistently exceeded expectations while working on multiple complex projects. His problem-solving skills and collaborative approach are top-notch.",
         avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVPH1oGKb6PdOccSxswBsqYA5jJJkiBdWaA&s",
     },
 ];

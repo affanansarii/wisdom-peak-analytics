@@ -57,27 +57,27 @@ function App() {
           <Portfolio />
         </Box>
 
-        <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box className="animate__animated animate__fadeInUp" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <Hobbies />
         </Box>
 
-        <Box width="98%">
+        <Box className="animate__animated animate__fadeInLeft" width="98%">
           <References />
         </Box>
 
-        <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box className="animate__animated animate__fadeInDown" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <Contact />
         </Box>
 
-        <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box className="animate__animated animate__fadeInLeft" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <ContactForm />
         </Box>
 
-        <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box className="animate__animated animate__fadeInDown" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <PDFDownloadButton />
         </Box>
 
-        <Box style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
+        <Box className="animate__animated animate__fadeInUp" style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }} p={8} borderRadius="10px" width="98%">
           <LocationMap />
         </Box>
 

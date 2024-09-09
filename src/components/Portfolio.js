@@ -27,7 +27,7 @@ function Portfolio() {
                 {projects.map((item, index) => (
                     <Box key={index} borderWidth={1} borderRadius="md" overflow="hidden" p={4}>
                         <Image src={item.image} alt="Project" margin="auto" />
-                        <Text mt={2} fontWeight="bold"> {/* Added fontWeight="bold" */}
+                        <Text mt={2} fontWeight="bold">
                             {item.description}
                         </Text>
                     </Box>
